@@ -7,17 +7,22 @@ module.exports = {
       fontFamily: {
         'kiwi': 'Kiwi Maru',
         'logo': 'Bukhari Script',
-        'header': 'Graublau Sans Pro',
+        'header': '𝚆𝙰𝙽𝙹𝙸𝙺𝚄',
         'baufra': 'Diamonds'
       },
       colors: {
-        'regal': '#FFC38C',
-        'royal': 'rgba(100,255,218)',
-        'specialblack': 'rgba(17,34,64)'
+        'regal': '#131313',
+        'royal': '#2e333d',
+        'specialblack': 'rgba(17,34,64)',
+        'bluu': '#6b8afd',
+        'samawati': 'rgba(58, 66, 82)'
       },
       spacing: {
-        '100' : '45rem',
+        '100' : '37rem',
       },
+      fontSize: {
+        xxs: '11px',
+      }
     },
   },
   plugins: [],

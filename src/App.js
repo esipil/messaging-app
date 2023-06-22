@@ -7,7 +7,7 @@ import Home from './Components/Home';
 
 function App() {
   return (
-    <div className="bg-royal">
+    <div className="">
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Login/>} />
