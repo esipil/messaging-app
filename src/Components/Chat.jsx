@@ -20,7 +20,7 @@ function Chat() {
     return (
         <div className='absolute w-[60rem] h-full rounded-lg top-0 left-[7rem] bg-royal flex ' >
             <div className='w-1/3 flex flex-col items-center  border-e-2 border-regal'>
-                <div className='bg-samawati w-3/4 h-10 mt-10 rounded-xl flex items-center justify-center ' >
+                <div className='bg-samawati w-3/4 h-10 mt-5 rounded-xl flex items-center justify-center ' >
                     <div className=' flex items-center'>
                         {search ?
                             <svg className='h-8 w-8 pl-2' stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -44,7 +44,7 @@ function Chat() {
                         </form>
                     </div>
                 </div>
-                <div className='w-full mt-6 overflow-auto overflow-bluu'>
+                <div className='w-full mt-6 overflow-y-auto '>
                     <ChatHeader />
                     <ChatHeader />
                     <ChatHeader />
